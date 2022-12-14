@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: hsl(212, 45%, 89%);
+  font-family: "Outfit", sans-serif;
+  font-size: 15px;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container figure {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 13px;
+  padding-bottom: 5%;
+  width: 18vw;
+}
+
+.container figure img {
+  border-radius: 7px;
+  margin: 5%;
+  width: 90%;
+}
+
+.container figure figcaption {
+  margin: 5%;
+  text-align: center;
+  font-size: 0.85rem;
+}
+
+.container figure figcaption h2 {
+  color: hsl(218, 44%, 22%);
+  font-weight: 700;
+}
+
+.container figure figcaption h5 {
+  color: hsl(220, 15%, 55%);
+  margin: 0;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+@media screen and (max-width: 375px) {
+  .container figure {
+    width: 90vw;
+  }
+}
